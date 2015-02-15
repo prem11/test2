@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="main.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+</head>
+<body >
+		<nav id="gift-subs-options">
+    <ul>
+        <li class="selected">
+            <label>
+                <input type="radio" name="subscription-period" value="3mths" checked />
+                <span class="period">3 months</span>                        
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="radio" name="subscription-period" value="6mths" />
+                <span class="period">6 months</span>
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="radio" name="subscription-period" value="12mths" />
+                <span class="period">12 months</span>
+            </label>
+        </li>
+    </ul>
+</nav>
+
+<div class="prices" data-period="3mths">A 1</div>
+<div class="prices" data-period="6mths">B 1</div>
+<div class="prices" data-period="12mths">C 1</div>
+
+<div class="prices" data-period="3mths">A 2</div>
+<div class="prices" data-period="6mths">B 2</div>
+<div class="prices" data-period="12mths">C 2</div>
+
+<div class="prices" data-period="3mths">A 2</div>
+<div class="prices" data-period="6mths">B 2</div>
+<div class="prices" data-period="12mths">C 3</div>
+</body>
+</html>
